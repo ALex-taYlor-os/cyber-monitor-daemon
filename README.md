@@ -88,7 +88,6 @@ cyber-daemon-1.0-all
 ├── DEBIAN
    ├── control
    ├── postinst
-   ├── cyber_monitor.service
    ├── rules
 └──usr
     └──local
