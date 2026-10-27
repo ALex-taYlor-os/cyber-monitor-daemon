@@ -1,0 +1,7 @@
+Package: cyber-daemon
+Version: 1.0            
+Architecture: all       
+Essential: no           
+Priority: optional      
+Maintainer: alexTaYLOR
+Description: My package to monitor and print a message every 5 seconds

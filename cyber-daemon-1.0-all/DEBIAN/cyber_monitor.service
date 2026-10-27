@@ -1,0 +1,12 @@
+[Unit]
+Description=Affichage toutes les 5 secondes d'une surveillance
+After=network.target
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/cyber_daemon
+RemainAfterExit=yes
+StandardError=journal
+StandardOutput=journal
+StandardInput=null
+[Install]
+WantedBy=multi-user.target
