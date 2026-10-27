@@ -9,11 +9,7 @@
 ## 1.  Mise en place des vm
 ### 1.1 Déploiment d'une Vm serveur et d'une Vm cliente.
 Contenant un serveur Web, un serveur ftp tout deux avec un certificat TLS. Ainsi que les serveurs DNS, DHCP qui auront pour domaine starfleet.lan, LDAP, MAriaDB, l'utilisation de PHP pour le serveur web avec ngnix
-### 1.2 Les contraintes
-- Pas de comptes sudo
-- mise en place du par-feu uniquement pour les ports requis
-- serveur web avec nginx et ne https
-- PHP, MariaDB, et Nginx doivent être la dernière version
+
 ## 2. Preparation des fichiers scriptiong
 ### 2.1 Compilation pour le fichier .c
 
