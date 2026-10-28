@@ -4,4 +4,3 @@ systemctl daemon-reload
 systemctl enable cyber_monitor
 
 echo "Installation du service réussi "
-#DEBHELPER#
